@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Distance</title>
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <header class="header">
+      <div class="header-block">
+         <button class="m-menu">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+         </button>
+         <div class="search">
+            <input type="text" class="search-input" placeholder="Search" />
+         </div>
+         <div class="navigation">
+            <div class="user">
+               <img src="img/avatar.png" alt="avatar" class="user-avatar">
+               <span class="user-name">Mateusz</span>
+            </div>
+            <!-- /.user -->
+            <nav class="navigation-panel">
+               <a href="#" class="navigation-link">Home</a>
+               <a href="#" class="navigation-link">Create</a>
+            </nav>
+            <!-- /.navigation-panel -->
+            <div class="icons-panel">
+               <a href="#" class="icon-link">
+                  <svg class="header-icon" width="20" height="20">
+                     <use xlink:href="img/icons.svg#users"></use>
+                  </svg>
+               </a>
+               <a href="#" class="icon-link">
+                  <svg class="header-icon" width="22" height="22">
+                     <use xlink:href="img/icons.svg#chat"></use>
+                  </svg>
+               </a>
+               <a href="#" class="icon-link">
+                  <span class="notification">8</span>
+                  <svg class="header-icon" width="16" height="22">
+                     <use xlink:href="img/icons.svg#bell"></use>
+                  </svg>
+               </a>
+               <a href="#" class="icon-link">
+                  <svg class="header-icon" width="22" height="22">
+                     <use xlink:href="img/icons.svg#info"></use>
+                  </svg>
+               </a>
+            </div>
+            <!-- /.icons-panel -->
+         </div>
+      </div>
+      <!-- /.header-bloc -->
+   </header>
+   <!-- /.header -->
+   <div class="container">
+      <div class="menu-sidebar">
+         <div class="user">
+            <img src="img/avatar.png" alt="avatar" class="user-avatar">
+            <span class="user-name">Mateusz</span>
+         </div>
+         <!-- /.user -->
+         <nav class="nav-group">
+            <a href="#" class="nav-link active">
+               <svg width="24" height="24">
+                  <use xlink:href="img/menu-sidebar-icons.svg#news"></use>
+               </svg>
+               <span class="nav-text">News Feed</span>
+               <!-- /.nav-text -->
+            </a>
+            <a href="#" class="nav-link">
+               <svg width="24" height="24">
+                  <use xlink:href="img/menu-sidebar-icons.svg#messages"></use>
+               </svg>
+               <span class="nav-text">Messages</span>
+               <!-- /.nav-text -->
+            </a>
+            <a href="#" class="nav-link">
+               <svg width="24" height="24">
+                  <use xlink:href="img/menu-sidebar-icons.svg#marketplace"></use>
+               </svg>
+               <span class="nav-text">Marketplace</span>
+               <!-- /.nav-text -->
+            </a>
+         </nav>
+         <!-- /.nav-group -->
+         <nav class="nav-group">
+            <h3 class="nav-title">Shortcuts</h3>
+            <a href="#" class="nav-link">
+               <svg width="24" height="24">
+                  <use xlink:href="img/menu-sidebar-icons.svg#product"></use>
+               </svg>
+               <span class="nav-text">Product Design</span>
+               <!-- /.nav-text -->
+            </a>
+            <!-- /.nav-link -->
+            <a href="#" class="nav-link">
+               <svg width="24" height="24">
+                  <use xlink:href="img/menu-sidebar-icons.svg#product"></use>
+               </svg>
+               <span class="nav-text">UX & UI</span>
+               <!-- /.nav-text -->
+            </a>
+            <!-- /.nav-link -->
+            <a href="#" class="nav-link">
+               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <use xlink:href="img/menu-sidebar-icons.svg#product"></use>
+               </svg>
+               <span class="nav-text">Figma</span>
+               <!-- /.nav-text -->
+            </a>
+            <!-- /.nav-link -->
+            <a href="#" class="nav-link">
+               <svg width="24" height="24">
+                  <use xlink:href="img/menu-sidebar-icons.svg#product"></use>
+               </svg>
+               <span class="nav-text">Ant Design</span>
+               <!-- /.nav-text -->
+            </a>
+            <!-- /.nav-link -->
+         </nav>
+         <!-- /.nav-group -->
+         <nav class="nav-group">
+            <h3 class="nav-title">Explore</h3>
+            <a href="#" class="nav-link">
+               <svg width="24" height="24">
+                  <use xlink:href="img/menu-sidebar-icons.svg#pages"></use>
+               </svg>
+               <span class="nav-text">Pages</span>
+               <!-- /.nav-text -->
+            </a>
+            <!-- /.nav-link -->
+            <a href="#" class="nav-link">
+               <svg width="24" height="24">
+                  <use xlink:href="img/menu-sidebar-icons.svg#groups"></use>
+               </svg>
+               <span class="nav-text">Groups</span>
+               <!-- /.nav-text -->
+            </a>
+            <!-- /.nav-link -->
+            <a href="#" class="nav-link">
+               <svg width="24" height="24">
+                  <use xlink:href="img/menu-sidebar-icons.svg#events"></use>
+               </svg>
+               <span class="nav-text">Events</span>
+               <!-- /.nav-text -->
+            </a>
+            <!-- /.nav-link -->
+            <a href="#" class="nav-link">
+               <svg width="24" height="24">
+                  <use xlink:href="img/menu-sidebar-icons.svg#games"></use>
+               </svg>
+               <span class="nav-text">Games</span>
+               <!-- /.nav-text -->
+            </a>
+            <!-- /.nav-link -->
+            <a href="#" class="nav-link">
+               <svg width="16" height="16">
+                  <use xlink:href="img/menu-sidebar-icons.svg#see"></use>
+               </svg>
+               <span class="nav-text last">See more...</span>
+               <!-- /.nav-text -->
+            </a>
+            <!-- /.nav-link -->
+         </nav>
+         <!-- /.nav-group -->
+      </div>
+      <!-- /.menu-sidebar -->
+      <div class="main-feed">
+         <div class="create-post">
+            <div class="create-post-header">
+               <h4 class="create-post-title">Create post</h4>
+            </div>
+            <!-- /.header -->
+            <div class="create-post-body">
+               <img src="img/avatar.png" alt="avatar" class="user-avatar">
+               <div class="create-post-input" contenteditable="true">What’s on your mind, Mateusz?</div>
+            </div>
+            <!-- /.body -->
+            <div class="create-post-footer">
+               <button class="tag">
+                  <svg class="tag-icon" width="24" height="24" viewBox="0 0 25 24" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M22.6654 3.75H3.19855C2.78442 3.75 2.44983 4.08516 2.44983 4.5V19.5C2.44983 19.9148 2.78442 20.25 3.19855 20.25H22.6654C23.0795 20.25 23.4141 19.9148 23.4141 19.5V4.5C23.4141 4.08516 23.0795 3.75 22.6654 3.75ZM21.7295 18.5625H4.13446V17.6273L7.37503 13.7766L10.887 17.9484L16.3504 11.4609L21.7295 17.85V18.5625ZM21.7295 15.5203L16.4931 9.3C16.4182 9.21094 16.2825 9.21094 16.2076 9.3L10.887 15.6188L7.51776 11.618C7.44289 11.5289 7.30718 11.5289 7.23231 11.618L4.13446 15.2977V5.4375H21.7295V15.5203Z"
+                        fill="#1890FF" />
+                     <path
+                        d="M10.887 17.9484L7.37503 13.7766L4.13446 17.6273V18.5625H21.7295V17.85L16.3504 11.4609L10.887 17.9484Z"
+                        fill="#E6F7FF" />
+                     <path
+                        d="M4.13446 15.2977L7.23231 11.618C7.30718 11.5289 7.44289 11.5289 7.51776 11.618L10.887 15.6188L16.2076 9.3C16.2825 9.21094 16.4182 9.21094 16.4931 9.3L21.7295 15.5203V5.4375H4.13446V15.2977ZM8.06526 6.5625C8.33565 6.5625 8.6034 6.61585 8.85321 6.7195C9.10301 6.82315 9.33 6.97507 9.52119 7.16659C9.71239 7.35811 9.86405 7.58548 9.96752 7.83572C10.071 8.08595 10.1243 8.35415 10.1243 8.625C10.1243 8.89585 10.071 9.16405 9.96752 9.41428C9.86405 9.66452 9.71239 9.89189 9.52119 10.0834C9.33 10.2749 9.10301 10.4269 8.85321 10.5305C8.6034 10.6342 8.33565 10.6875 8.06526 10.6875C7.51918 10.6875 6.99547 10.4702 6.60934 10.0834C6.2232 9.69661 6.00627 9.17201 6.00627 8.625C6.00627 8.07799 6.2232 7.55339 6.60934 7.16659C6.99547 6.7798 7.51918 6.5625 8.06526 6.5625V6.5625Z"
+                        fill="#E6F7FF" />
+                     <path
+                        d="M7.41016 8.625C7.41016 8.79905 7.47918 8.96597 7.60204 9.08904C7.7249 9.21211 7.89154 9.28125 8.06529 9.28125C8.23904 9.28125 8.40568 9.21211 8.52854 9.08904C8.6514 8.96597 8.72042 8.79905 8.72042 8.625C8.72042 8.45095 8.6514 8.28403 8.52854 8.16096C8.40568 8.03789 8.23904 7.96875 8.06529 7.96875C7.89154 7.96875 7.7249 8.03789 7.60204 8.16096C7.47918 8.28403 7.41016 8.45095 7.41016 8.625V8.625Z"
+                        fill="#E6F7FF" />
+                     <path
+                        d="M8.06528 10.6875C8.33567 10.6875 8.60341 10.6342 8.85322 10.5305C9.10303 10.4269 9.33001 10.2749 9.52121 10.0834C9.7124 9.89189 9.86407 9.66452 9.96754 9.41428C10.071 9.16405 10.1243 8.89585 10.1243 8.625C10.1243 8.35415 10.071 8.08595 9.96754 7.83572C9.86407 7.58548 9.7124 7.35811 9.52121 7.16659C9.33001 6.97507 9.10303 6.82315 8.85322 6.7195C8.60341 6.61585 8.33567 6.5625 8.06528 6.5625C7.5192 6.5625 6.99549 6.7798 6.60935 7.16659C6.22322 7.55339 6.00629 8.07799 6.00629 8.625C6.00629 9.17201 6.22322 9.69661 6.60935 10.0834C6.99549 10.4702 7.5192 10.6875 8.06528 10.6875V10.6875ZM8.06528 7.96875C8.42794 7.96875 8.72041 8.26172 8.72041 8.625C8.72041 8.98828 8.42794 9.28125 8.06528 9.28125C7.70262 9.28125 7.41015 8.98828 7.41015 8.625C7.41015 8.26172 7.70262 7.96875 8.06528 7.96875Z"
+                        fill="#1890FF" />
+                  </svg>
+                  <span class="button-text">Photo/Video</span>
+               </button>
+               <!-- /.tag -->
+               <button class="tag">
+                  <svg class="tag-icon" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M16.5814 15.0563C17.1477 14.7516 17.7958 14.5781 18.486 14.5781H18.4883C18.5585 14.5781 18.5913 14.4938 18.5398 14.4469C17.822 13.8016 17.002 13.2804 16.1135 12.9047C16.1041 12.9 16.0948 12.8977 16.0854 12.893C17.5384 11.8359 18.4837 10.118 18.4837 8.17969C18.4837 4.96875 15.8912 2.36719 12.6927 2.36719C9.49428 2.36719 6.90417 4.96875 6.90417 8.17969C6.90417 10.118 7.84943 11.8359 9.30476 12.893C9.2954 12.8977 9.28605 12.9 9.27669 12.9047C8.23081 13.3477 7.29257 13.9828 6.48535 14.7938C5.68279 15.5962 5.04385 16.5475 4.60418 17.5945C4.17159 18.6198 3.93812 19.7184 3.91629 20.8312C3.91566 20.8563 3.92004 20.8812 3.92917 20.9044C3.9383 20.9277 3.95199 20.949 3.96943 20.9669C3.98687 20.9848 4.00772 20.999 4.03074 21.0087C4.05376 21.0184 4.07849 21.0234 4.10347 21.0234H5.50499C5.6056 21.0234 5.68983 20.9414 5.69217 20.8406C5.73896 19.0313 6.46195 17.3367 7.7418 16.0523C9.06377 14.7234 10.8233 13.9922 12.6951 13.9922C14.0217 13.9922 15.2946 14.3602 16.3919 15.0492C16.4201 15.067 16.4525 15.077 16.4857 15.0782C16.519 15.0794 16.552 15.0719 16.5814 15.0563V15.0563ZM12.6951 12.2109C11.6235 12.2109 10.615 11.7914 9.85461 11.0297C9.48047 10.6559 9.18386 10.2116 8.98188 9.72248C8.77989 9.23335 8.67651 8.70902 8.67771 8.17969C8.67771 7.10391 9.09652 6.09141 9.85461 5.32969C10.6127 4.56797 11.6211 4.14844 12.6951 4.14844C13.769 4.14844 14.7751 4.56797 15.5356 5.32969C15.9097 5.70349 16.2063 6.14776 16.4083 6.63689C16.6103 7.12603 16.7137 7.65036 16.7125 8.17969C16.7125 9.25547 16.2936 10.268 15.5356 11.0297C14.7751 11.7914 13.7667 12.2109 12.6951 12.2109ZM21.3007 17.7891H19.3353V15.8203C19.3353 15.7172 19.2511 15.6328 19.1482 15.6328H17.8379C17.7349 15.6328 17.6507 15.7172 17.6507 15.8203V17.7891H15.6853C15.5824 17.7891 15.4981 17.8734 15.4981 17.9766V19.2891C15.4981 19.3922 15.5824 19.4766 15.6853 19.4766H17.6507V21.4453C17.6507 21.5484 17.7349 21.6328 17.8379 21.6328H19.1482C19.2511 21.6328 19.3353 21.5484 19.3353 21.4453V19.4766H21.3007C21.4037 19.4766 21.4879 19.3922 21.4879 19.2891V17.9766C21.4879 17.8734 21.4037 17.7891 21.3007 17.7891Z"
+                        fill="#1890FF" />
+                  </svg>
+                  <span class="button-text">Tag friends</span>
+               </button>
+               <!-- /.tag -->
+               <button class="tag">
+                  <svg class="tag-icon" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M12.4643 1.5C6.67571 1.5 1.98215 6.20156 1.98215 12C1.98215 17.7984 6.67571 22.5 12.4643 22.5C18.2529 22.5 22.9464 17.7984 22.9464 12C22.9464 6.20156 18.2529 1.5 12.4643 1.5ZM12.4643 20.7188C7.65842 20.7188 3.76037 16.8141 3.76037 12C3.76037 7.18594 7.65842 3.28125 12.4643 3.28125C17.2702 3.28125 21.1682 7.18594 21.1682 12C21.1682 16.8141 17.2702 20.7188 12.4643 20.7188Z"
+                        fill="#1890FF" />
+                     <path
+                        d="M12.4643 3.28125C7.65842 3.28125 3.76037 7.18594 3.76037 12C3.76037 16.8141 7.65842 20.7188 12.4643 20.7188C17.2702 20.7188 21.1682 16.8141 21.1682 12C21.1682 7.18594 17.2702 3.28125 12.4643 3.28125ZM7.22322 9.86719C7.22922 9.5728 7.35018 9.29249 7.56015 9.08641C7.77011 8.88034 8.05235 8.76492 8.34631 8.76492C8.64026 8.76492 8.9225 8.88034 9.13247 9.08641C9.34243 9.29249 9.46339 9.5728 9.46939 9.86719C9.46339 10.1616 9.34243 10.4419 9.13247 10.648C8.9225 10.854 8.64026 10.9695 8.34631 10.9695C8.05235 10.9695 7.77011 10.854 7.56015 10.648C7.35018 10.4419 7.22922 10.1616 7.22322 9.86719V9.86719ZM12.4643 16.2422C10.4638 16.2422 8.82362 14.6648 8.72067 12.6891C8.7194 12.6637 8.7233 12.6383 8.73214 12.6144C8.74097 12.5906 8.75456 12.5688 8.77207 12.5504C8.78958 12.532 8.81065 12.5173 8.83399 12.5073C8.85733 12.4973 8.88246 12.4922 8.90785 12.4922H10.0333C10.1315 12.4922 10.2158 12.5672 10.2228 12.6656C10.3117 13.8258 11.2827 14.7422 12.4643 14.7422C13.6459 14.7422 14.6192 13.8258 14.7058 12.6656C14.7128 12.5672 14.797 12.4922 14.8953 12.4922H16.0207C16.0461 12.4922 16.0713 12.4973 16.0946 12.5073C16.1179 12.5173 16.139 12.532 16.1565 12.5504C16.174 12.5688 16.1876 12.5906 16.1964 12.6144C16.2053 12.6383 16.2092 12.6637 16.2079 12.6891C16.105 14.6648 14.4648 16.2422 12.4643 16.2422ZM16.5823 10.9922C16.2884 10.9862 16.0086 10.865 15.8028 10.6547C15.5971 10.4444 15.4819 10.1616 15.4819 9.86719C15.4819 9.57273 15.5971 9.29001 15.8028 9.07969C16.0086 8.86936 16.2884 8.7482 16.5823 8.74219C16.8762 8.7482 17.156 8.86936 17.3617 9.07969C17.5674 9.29001 17.6827 9.57273 17.6827 9.86719C17.6827 10.1616 17.5674 10.4444 17.3617 10.6547C17.156 10.865 16.8762 10.9862 16.5823 10.9922V10.9922Z"
+                        fill="#E6F7FF" />
+                     <path
+                        d="M7.22321 9.86719C7.22321 10.1656 7.34154 10.4517 7.55216 10.6627C7.76278 10.8737 8.04844 10.9922 8.3463 10.9922C8.64416 10.9922 8.92982 10.8737 9.14044 10.6627C9.35106 10.4517 9.46939 10.1656 9.46939 9.86719C9.46939 9.56882 9.35106 9.28267 9.14044 9.07169C8.92982 8.86071 8.64416 8.74219 8.3463 8.74219C8.04844 8.74219 7.76278 8.86071 7.55216 9.07169C7.34154 9.28267 7.22321 9.56882 7.22321 9.86719V9.86719ZM16.0207 12.4922H14.8953C14.797 12.4922 14.7128 12.5672 14.7058 12.6656C14.6192 13.8258 13.6459 14.7422 12.4643 14.7422C11.2827 14.7422 10.3117 13.8258 10.2228 12.6656C10.2158 12.5672 10.1315 12.4922 10.0333 12.4922H8.90784C8.88245 12.4922 8.85732 12.4973 8.83398 12.5073C8.81064 12.5173 8.78957 12.532 8.77206 12.5504C8.75456 12.5688 8.74097 12.5906 8.73213 12.6144C8.7233 12.6383 8.71939 12.6637 8.72066 12.6891C8.82361 14.6648 10.4638 16.2422 12.4643 16.2422C14.4648 16.2422 16.105 14.6648 16.2079 12.6891C16.2092 12.6637 16.2053 12.6383 16.1964 12.6144C16.1876 12.5906 16.174 12.5688 16.1565 12.5504C16.139 12.532 16.1179 12.5173 16.0946 12.5073C16.0712 12.4973 16.0461 12.4922 16.0207 12.4922V12.4922ZM15.4592 9.86719C15.4592 10.1656 15.5775 10.4517 15.7881 10.6627C15.9987 10.8737 16.2844 10.9922 16.5823 10.9922C16.8801 10.9922 17.1658 10.8737 17.3764 10.6627C17.587 10.4517 17.7054 10.1656 17.7054 9.86719C17.7054 9.56882 17.587 9.28267 17.3764 9.07169C17.1658 8.86071 16.8801 8.74219 16.5823 8.74219C16.2844 8.74219 15.9987 8.86071 15.7881 9.07169C15.5775 9.28267 15.4592 9.56882 15.4592 9.86719V9.86719Z"
+                        fill="#1890FF" />
+                  </svg>
+
+                  <span class="button-text">Feeling/Activ...</span>
+               </button>
+               <!-- /.tag -->
+               <button class="tag">
+                  <svg class="tag-icon" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M4.33737 11.9766C4.33737 12.1489 4.37126 12.3196 4.43711 12.4788C4.50296 12.6381 4.59947 12.7828 4.72114 12.9046C4.84281 13.0265 4.98725 13.1232 5.14622 13.1892C5.30519 13.2551 5.47557 13.2891 5.64764 13.2891C5.81971 13.2891 5.99009 13.2551 6.14906 13.1892C6.30803 13.1232 6.45247 13.0265 6.57414 12.9046C6.69581 12.7828 6.79232 12.6381 6.85817 12.4788C6.92402 12.3196 6.95791 12.1489 6.95791 11.9766C6.95791 11.8042 6.92402 11.6335 6.85817 11.4743C6.79232 11.3151 6.69581 11.1704 6.57414 11.0485C6.45247 10.9266 6.30803 10.8299 6.14906 10.764C5.99009 10.698 5.81971 10.6641 5.64764 10.6641C5.47557 10.6641 5.30519 10.698 5.14622 10.764C4.98725 10.8299 4.84281 10.9266 4.72114 11.0485C4.59947 11.1704 4.50296 11.3151 4.43711 11.4743C4.37126 11.6335 4.33737 11.8042 4.33737 11.9766V11.9766ZM10.8887 11.9766C10.8887 12.3247 11.0268 12.6585 11.2725 12.9046C11.5182 13.1508 11.8515 13.2891 12.199 13.2891C12.5465 13.2891 12.8798 13.1508 13.1255 12.9046C13.3712 12.6585 13.5092 12.3247 13.5092 11.9766C13.5092 11.6285 13.3712 11.2946 13.1255 11.0485C12.8798 10.8023 12.5465 10.6641 12.199 10.6641C11.8515 10.6641 11.5182 10.8023 11.2725 11.0485C11.0268 11.2946 10.8887 11.6285 10.8887 11.9766V11.9766ZM17.44 11.9766C17.44 12.3247 17.5781 12.6585 17.8238 12.9046C18.0695 13.1508 18.4028 13.2891 18.7503 13.2891C19.0978 13.2891 19.4311 13.1508 19.6768 12.9046C19.9225 12.6585 20.0606 12.3247 20.0606 11.9766C20.0606 11.6285 19.9225 11.2946 19.6768 11.0485C19.4311 10.8023 19.0978 10.6641 18.7503 10.6641C18.4028 10.6641 18.0695 10.8023 17.8238 11.0485C17.5781 11.2946 17.44 11.6285 17.44 11.9766V11.9766Z"
+                        fill="#595959" />
+                  </svg>
+
+               </button>
+               <!-- /.tag -->
+            </div>
+            <!-- /.footer -->
+         </div>
+         <!-- /.create-post -->
+         <div class="post">
+            <div class="post-header">
+               <div class="user">
+                  <img class="user-avatar" src="img/avatar.png" alt="avatar" />
+                  <div class="post-info">
+                     <a href="#" class="post-author">Mateusz Wierzbicki</a>
+                     <div class="post-info-time">
+                        <span class="post-time">3 hrs</span>
+                        <svg class="setting-icon" width="14" height="14">
+                           <use xlink:href="img/icons.svg#setting"> </use>
+                        </svg>
+                     </div>
+                     <!-- /.post-info-time -->
+                  </div>
+                  </img>
+               </div>
+               <button class="post-header-button">
+                  <svg class="post-button-icon" width="24" height="24">
+                     <use xlink:href="img/icons.svg#dots"> </use>
+                  </svg>
+               </button>
+               <!-- /.post-button -->
+            </div>
+            <!-- /.post-header -->
+            <div class="post-content">
+               <p class="post-text">
+                  Did you know that all of this was made using only components and styles from Ant Desing System for
+                  Figma? Learn more:
+                  <a href="https://antforfigma.com">https://antforfigma.com</a>
+               </p>
+               <img src="img/post-image.jpg" alt="post-image" class="post-image">
+               <!-- /.post-text -->
+            </div>
+            <!-- /.post-content -->
+            <div class="likes">
+               <svg class="likes-icon" width="16" height="16">
+                  <use xlink:href="img/icons.svg#like-active"> </use>
+               </svg>
+               <span class="likes-counter">23</span>
+            </div>
+            <!-- /.likes -->
+            <div class="post-footer">
+               <button class="post-button">
+                  <svg class="post-button-icon" width="24" height="24">
+                     <use xlink:href="img/icons.svg#like"> </use>
+                  </svg>
+                  <span class="post-button-text">Like</span>
+                  <!-- /.post-button-text -->
+               </button>
+               <!-- /.post-button -->
+               <button class="post-button">
+                  <svg class="post-button-icon" width="24" height="24">
+                     <use xlink:href="img/icons.svg#chat"> </use>
+                  </svg>
+                  <span class="post-button-text">Comment</span>
+                  <!-- /.post-button-text -->
+               </button>
+               <!-- /.post-button -->
+               <button class="post-button">
+                  <svg class="post-button-icon" width="24" height="24">
+                     <use xlink:href="img/icons.svg#share"> </use>
+                  </svg>
+                  <span class="post-button-text">Share</span>
+                  <!-- /.post-button-text -->
+               </button>
+               <!-- /.post-button -->
+            </div>
+            <!-- /.post-footer -->
+         </div>
+         <!-- /.post -->
+      </div>
+      <!-- /.main-feed -->
+      <div class="right-sidebar">
+         <div class="stories">
+            <div class="stories-header">
+               <h4 class="stories-title">Stories</h4>
+               <div class="story-buttons">
+                  <a href="#" class="story-button-link">
+                     <svg class="stories-icon" width="16" height="16">
+                        <use xlink:href="img/icons.svg#clock-circle"></use>
+                     </svg>
+                     <span class="story-button-text">Archive</span>
+                  </a>
+                  <a href="#" class="story-button-link">
+                     <span class="story-button-text">Settings</span>
+                  </a>
+               </div>
+               <!-- /.story-buttons -->
+               <!-- /.story-title -->
+            </div>
+            <!-- /.storyi-header -->
+            <a href="#" class="story-item-add">
+               <div class="story-image">+</div>
+               <div class="story-item-text">
+                  <span class="story-title">Add to your story</span>
+                  <span class="story-text">Share a photo or video or write something</span>
+               </div>
+               <!-- /.story-item-text -->
+            </a>
+            <!-- /.story-item-add -->
+            <a href="#" class="story-item">
+               <div class="story-image figma"></div>
+               <div class="story-item-text">
+                  <span class="story-title">Figma</span>
+                  <span class="story-text">
+                     4 hours ago
+                  </span>
+               </div>
+               <!-- /.story-item-text -->
+            </a>
+            <a href="#" class="story-item">
+               <div class="story-image ant"></div>
+               <div class="story-item-text">
+                  <span class="story-title">Ant Design</span>
+                  <span class="story-text">
+                     4 hours ago
+                  </span>
+               </div>
+               <!-- /.story-item-text -->
+            </a>
+         </div>
+         <!-- /.stories -->
+      </div>
+      <!-- /.right-sidebar -->
+   </div>
+   <!-- /.container -->
+   <script src="js/script.js"></script>
+</body>
+
+</html>
